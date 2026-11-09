@@ -1,0 +1,132 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff3e0;
+    color: #1e1e1e;
+    margin: 0;
+    padding-top: 55px;
+}
+
+nav a {
+    color: #ffcc80;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.2s linear, transform 0.2s;
+}
+
+nav a:hover {
+    color: #ff5722;
+    transform: scale(1.05);
+}
+
+main {
+    padding: 30px;
+    max-width: 1150px;
+    margin: 30px auto;
+    background: #fff8e1;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+    text-align: left;
+    color: #ff9800;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+label {
+    font-weight: 600;
+    color: #212121;
+}
+
+input, textarea, select, button {
+    padding: 14px;
+    border: 1px solid #fb8c00;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #ffe0b2;
+}
+
+button {
+    background: #ff5722;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    background: #e64a19;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid #ffcc80;
+    background-color: #fff3e0;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 30px 0;
+    border: 2px solid #ff9800;
+}
+
+th, td {
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #fb8c00;
+}
+
+th {
+    background-color: #ffb74d;
+    color: #ffffff;
+    border-top: 2px solid #ff9800;
+}
+
+td {
+    background-color: #ffe0b2;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.actions a {
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.actions .edit {
+    background-color: #ff7043;
+}
+
+.actions .delete {
+    background-color: #d32f2f;
+}
+
+.actions .edit:hover {
+    background-color: #ff5722;
+}
+
+.actions .delete:hover {
+    background-color: #b71c1c;
+}
